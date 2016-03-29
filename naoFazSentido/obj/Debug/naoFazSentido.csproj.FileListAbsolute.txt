@@ -1,0 +1,28 @@
+c:\users\win 7\documents\visual studio 2015\Projects\naoFazSentido\naoFazSentido\bin\Debug\naoFazSentido.exe.config
+c:\users\win 7\documents\visual studio 2015\Projects\naoFazSentido\naoFazSentido\bin\Debug\naoFazSentido.exe
+c:\users\win 7\documents\visual studio 2015\Projects\naoFazSentido\naoFazSentido\bin\Debug\naoFazSentido.pdb
+c:\users\win 7\documents\visual studio 2015\Projects\naoFazSentido\naoFazSentido\obj\Debug\naoFazSentido.csprojResolveAssemblyReference.cache
+c:\users\win 7\documents\visual studio 2015\Projects\naoFazSentido\naoFazSentido\obj\Debug\naoFazSentido.Form1.resources
+c:\users\win 7\documents\visual studio 2015\Projects\naoFazSentido\naoFazSentido\obj\Debug\naoFazSentido.Form2.resources
+c:\users\win 7\documents\visual studio 2015\Projects\naoFazSentido\naoFazSentido\obj\Debug\naoFazSentido.Form3.resources
+c:\users\win 7\documents\visual studio 2015\Projects\naoFazSentido\naoFazSentido\obj\Debug\naoFazSentido.Properties.Resources.resources
+c:\users\win 7\documents\visual studio 2015\Projects\naoFazSentido\naoFazSentido\obj\Debug\naoFazSentido.csproj.GenerateResource.Cache
+c:\users\win 7\documents\visual studio 2015\Projects\naoFazSentido\naoFazSentido\obj\Debug\naoFazSentido.exe
+c:\users\win 7\documents\visual studio 2015\Projects\naoFazSentido\naoFazSentido\obj\Debug\naoFazSentido.pdb
+c:\users\win 7\documents\visual studio 2015\Projects\naoFazSentido\naoFazSentido\bin\Debug\MySql.Data.dll
+C:\Users\Win 7\Documents\Visual Studio 2015\Projects\naoFazSentido\naoFazSentido\obj\Debug\naoFazSentido.Apresentação.Form4.resources
+F:\outros\naoFazSentido\naoFazSentido\bin\Debug\naoFazSentido.exe.config
+F:\outros\naoFazSentido\naoFazSentido\obj\Debug\naoFazSentido.exe
+F:\outros\naoFazSentido\naoFazSentido\obj\Debug\naoFazSentido.pdb
+F:\outros\naoFazSentido\naoFazSentido\bin\Debug\naoFazSentido.exe
+F:\outros\naoFazSentido\naoFazSentido\bin\Debug\naoFazSentido.pdb
+F:\outros\naoFazSentido\naoFazSentido\obj\Debug\naoFazSentido.csprojResolveAssemblyReference.cache
+F:\outros\naoFazSentido\naoFazSentido\obj\Debug\naoFazSentido.Form1.resources
+F:\outros\naoFazSentido\naoFazSentido\obj\Debug\naoFazSentido.Form2.resources
+F:\outros\naoFazSentido\naoFazSentido\obj\Debug\naoFazSentido.Form3.resources
+F:\outros\naoFazSentido\naoFazSentido\obj\Debug\naoFazSentido.Apresentação.Form4.resources
+F:\outros\naoFazSentido\naoFazSentido\obj\Debug\naoFazSentido.Properties.Resources.resources
+F:\outros\naoFazSentido\naoFazSentido\obj\Debug\naoFazSentido.csproj.GenerateResource.Cache
+F:\outros\naoFazSentido\naoFazSentido\obj\Debug\naoFazSentido.Apresentação.Form5.resources
+F:\outros\naoFazSentido\naoFazSentido\obj\Debug\naoFazSentido.Apresentação.provisoria.resources
+F:\outros\naoFazSentido\naoFazSentido\obj\Debug\naoFazSentido.Apresentação.Form6.resources
