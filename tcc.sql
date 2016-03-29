@@ -22,4 +22,13 @@ id int auto_increment primary key,
  CIDADE VARCHAR(50),
  CEP VARCHAR(100),
  TELEFONE VARCHAR(65));
+  create table Carro(
+ CODIGO INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+ RENAVAM varchar(400),
+ MARCA varchar(400),
+ MODELO varchar(400),
+ PLACA varchar(400),
+ COMBUSTIVEL varchar(400),
+ COR varchar(400),
+ QUILOMETRAGEM varchar(400))
  
