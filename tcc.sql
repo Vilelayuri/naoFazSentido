@@ -33,3 +33,12 @@ id int auto_increment primary key,
  COMBUSTIVEL varchar(400),
  COR varchar(400),
  QUILOMETRAGEM varchar(400));
+ 
+ create table abastecimento(
+ id int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+palca varchar(10),
+dia varchar(20),
+motorista varchar(100),
+combustivel varchar(60),
+valor varchar(52),
+litor varchar(60));
