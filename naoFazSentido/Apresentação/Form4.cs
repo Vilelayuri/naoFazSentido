@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -21,10 +21,7 @@ namespace naoFazSentido.Apresentação
         DTOMotorista motorista = new DTOMotorista();
         Negocios negocio = new Negocios();
 
-        private void CarregarGrid()
-        {
-            dataGridView1.DataSource = negocio.SelecionaTodosMotorista();
-        }
+       
 
         private void button3_Click(object sender, EventArgs e)
         {
@@ -33,28 +30,18 @@ namespace naoFazSentido.Apresentação
 
         private void Form4_Load(object sender, EventArgs e)
         {
-            CarregarGrid();
+           
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             negocio.Excluir(txtCod.Text);
             limpar();
-            CarregarGrid();
+            
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            txtCod.Text = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
-            txtnome.Text = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
-            txtcpf.Text = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
-            txtdatanascimento.Text = dataGridView1.Rows[e.RowIndex].Cells[3].Value.ToString();
-            txtrg.Text = dataGridView1.Rows[e.RowIndex].Cells[4].Value.ToString();
-            txtendereco.Text = dataGridView1.Rows[e.RowIndex].Cells[5].Value.ToString();
-            txtcidade.Text = dataGridView1.Rows[e.RowIndex].Cells[6].Value.ToString();
-            txtcep.Text = dataGridView1.Rows[e.RowIndex].Cells[7].Value.ToString();
-            txttelefone.Text = dataGridView1.Rows[e.RowIndex].Cells[8].Value.ToString();
-
         }
 
         private void button1_Click(object sender, EventArgs e) 
@@ -69,7 +56,7 @@ namespace naoFazSentido.Apresentação
             motorista.TELEFONE = txttelefone.Text;
             negocio.inserirMotorista(motorista);
             limpar();
-            CarregarGrid();
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -82,10 +69,9 @@ namespace naoFazSentido.Apresentação
             motorista.NOME = txtnome.Text;
             motorista.RG = txtrg.Text;
             motorista.TELEFONE = txttelefone.Text;
-            
+
             negocio.Atualizar(motorista, txtCod.Text);
             limpar();
-            CarregarGrid();
         }
 
         private void limpar()
