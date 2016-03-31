@@ -1,11 +1,11 @@
-﻿using System.Windows.Forms;
+using System.Windows.Forms;
 using naoFazSentido.ObjetoDeTransferencia;
 using naoFazSentido.Negocio;
 namespace naoFazSentido
 {
-    public partial class Form1 : Form
+    public partial class Vistoria : Form
     {
-        public Form1()
+        public Vistoria()
         {
             InitializeComponent();
             cbTipoRevisao.Items.Add("Preventiva");
@@ -28,7 +28,7 @@ namespace naoFazSentido
             revisao.quantidade = textBox1.Text;
             negocios.inserirrevisao(revisao);
             limpa();
-            CarregarGrid();
+           
         }
 
         private void btcancelar_Click(object sender, System.EventArgs e)
@@ -46,14 +46,10 @@ namespace naoFazSentido
             txtNomeOficina.Text = "";
             txtvaloritem.Text = "";
         }
-        private void CarregarGrid()
-        {
-            dgvrevisao.DataSource = negocios.SelecionaTodasRevisoes();
-        }
-
+ 
         private void Form1_Load(object sender, System.EventArgs e)
         {
-            CarregarGrid();
+          
         }
     }
 }
