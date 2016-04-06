@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -34,10 +34,13 @@ namespace naoFazSentido.Apresentação
                 dataGridView1.DataSource = negocio.SelecionaTodasRevisoes();
             }
         }
+<<<<<<< HEAD
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
+=======
+>>>>>>> origin/master
     }
 }

@@ -12,6 +12,7 @@ id int auto_increment primary key,
  Nome_item varchar(400),
  valor varchar(400),
  quantidade varchar(400));
+ 
  create table Motorista(
  CODIGO INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
  NOME VARCHAR(100),
@@ -22,7 +23,12 @@ id int auto_increment primary key,
  CIDADE VARCHAR(50),
  CEP VARCHAR(100),
  TELEFONE VARCHAR(65));
+<<<<<<< HEAD
   create table Carro(
+=======
+ 
+ create table Carro(
+>>>>>>> origin/master
  CODIGO INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
  RENAVAM varchar(400),
  MARCA varchar(400),
@@ -30,5 +36,18 @@ id int auto_increment primary key,
  PLACA varchar(400),
  COMBUSTIVEL varchar(400),
  COR varchar(400),
+<<<<<<< HEAD
  QUILOMETRAGEM varchar(400))
  
+=======
+ QUILOMETRAGEM varchar(400));
+ 
+ create table abastecimento(
+ id int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+palca varchar(10),
+dia varchar(20),
+motorista varchar(100),
+combustivel varchar(60),
+valor varchar(52),
+litor varchar(60));
+>>>>>>> origin/master

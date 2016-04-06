@@ -1,4 +1,4 @@
-﻿using System.Windows.Forms;
+using System.Windows.Forms;
 using naoFazSentido.ObjetoDeTransferencia;
 using naoFazSentido.Negocio;
 namespace naoFazSentido
@@ -27,7 +27,11 @@ namespace naoFazSentido
             revisao.quilometragem = txtquilometragem.Text;
             revisao.quantidade = textBox1.Text;
             negocios.inserirrevisao(revisao);
+<<<<<<< HEAD
           //  limpa();
+=======
+            limpa();
+>>>>>>> origin/master
            
         }
 
