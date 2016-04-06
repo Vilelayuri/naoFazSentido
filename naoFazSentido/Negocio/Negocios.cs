@@ -20,7 +20,7 @@ namespace naoFazSentido.Negocio
                 DataTable dt = new DataTable();
                 bd = new AcessoBancoDados();
                 bd.Conectar();
-                dt = bd.RetDataTable("SELECT * from motorista");
+                dt = bd.RetDataTable("SELECT * from Motorista");
                 return dt;
             }
 
@@ -193,7 +193,46 @@ namespace naoFazSentido.Negocio
                 bd = null;
             }
         }
+        //coisa para tela de cadastro de abastecimento
+        public void InseriAbastecimento(DTOAbastecimento dto)
+        {
+            try
+            {
 
+                bd = new AcessoBancoDados();
+                bd.Conectar();
+                string comando = "INSERT INTO abastecimento (placa,dia,motorista,combustivel,valor,litros,KM) values ('" + dto.placa + "', '" + dto.data + "', '" + dto.motorista + "', '" + dto.combustivel + "', '" + dto.valor + "', '" + dto.litros + dto.quilometragem + "')";
+                bd.ExecutarComandoSQL(comando);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Erro ao tentar cadastrar abastecimento  " + ex.Message);
+            }
+            finally
+            {
+                bd = null;
+            }
+        }
+        public DataTable SelecionaAbastecimento()
+        {
+            try
+            {
+                DataTable dt = new DataTable();
+                bd = new AcessoBancoDados();
+                bd.Conectar();
+                dt = bd.RetDataTable("SELECT * from abastecimento");
+                return dt;
+            }
+
+            catch (Exception ex)
+            {
+                throw new Exception("Erro ao tentar consultar os veiculos: " + ex.Message);
+            }
+            finally
+            {
+                bd = null;
+            }
+        }
 
     }
 }

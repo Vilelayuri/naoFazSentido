@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using naoFazSentido.Apresentação;
 
+
+
 namespace naoFazSentido.Apresentação
 {
     public partial class provisoria : Form
@@ -16,36 +18,34 @@ namespace naoFazSentido.Apresentação
         public provisoria()
         {
             InitializeComponent();
+
         }
 
-        private void button1_Click(object sender, EventArgs e)
+       
+
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form1 tel1 = new Form1();
-            tel1.Show();
+            Close();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void cadastroDeMotoristaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form2 tel2 = new Form2();
-            tel2.Show();
+            // Cria um novo formulário 
+            Vistoria frmAzul = new Vistoria();
+
+            // Atribui um titulo ao formulário
+            frmAzul.Text = "Formulário Azul";
+
+
+            // Maximiza o formulário filho
+            frmAzul.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+
+            // Define quem o pai desta janela
+            frmAzul.MdiParent = this;
+
+            // exibe o formulário
+            frmAzul.Show();
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            Form3 tel3 = new Form3();
-            tel3.Show();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            Form4 tel4 = new Form4();
-            tel4.Show();
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            Form5 tel5 = new Form5();
-            tel5.Show();
-        }
     }
 }

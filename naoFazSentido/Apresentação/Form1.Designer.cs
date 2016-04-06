@@ -1,6 +1,6 @@
 ﻿namespace naoFazSentido
 {
-    partial class Form1
+    partial class Vistoria
     {
         /// <summary>
         /// Required designer variable.
@@ -44,6 +44,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -52,11 +53,8 @@
             this.label12 = new System.Windows.Forms.Label();
             this.btcancelar = new System.Windows.Forms.Button();
             this.btsalvar = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.dgvrevisao = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvrevisao)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -206,6 +204,13 @@
             this.panel2.Size = new System.Drawing.Size(768, 57);
             this.panel2.TabIndex = 2;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(14, 24);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(81, 20);
+            this.textBox1.TabIndex = 11;
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -276,40 +281,23 @@
             this.btsalvar.UseVisualStyleBackColor = true;
             this.btsalvar.Click += new System.EventHandler(this.button2_Click);
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(14, 24);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(81, 20);
-            this.textBox1.TabIndex = 11;
-            // 
-            // dgvrevisao
-            // 
-            this.dgvrevisao.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvrevisao.Location = new System.Drawing.Point(12, 344);
-            this.dgvrevisao.Name = "dgvrevisao";
-            this.dgvrevisao.Size = new System.Drawing.Size(768, 150);
-            this.dgvrevisao.TabIndex = 24;
-            // 
-            // Form1
+            // Vistoria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(792, 506);
-            this.Controls.Add(this.dgvrevisao);
             this.Controls.Add(this.btsalvar);
             this.Controls.Add(this.btcancelar);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Vistoria";
+            this.Text = "Vistoria";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvrevisao)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -342,7 +330,6 @@
         private System.Windows.Forms.Button btcancelar;
         private System.Windows.Forms.Button btsalvar;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.DataGridView dgvrevisao;
     }
 }
 

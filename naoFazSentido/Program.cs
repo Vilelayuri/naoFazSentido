@@ -17,7 +17,7 @@ namespace naoFazSentido
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form4());
+            Application.Run(new provisoria());
            //  192.168.2.250
           //  pinovacao
          //  senai

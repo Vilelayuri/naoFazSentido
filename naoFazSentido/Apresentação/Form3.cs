@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace naoFazSentido
 {
-    public partial class Form3 : Form
+    public partial class help : Form
     {
-        public Form3()
+        public help()
         {
             InitializeComponent();
         }

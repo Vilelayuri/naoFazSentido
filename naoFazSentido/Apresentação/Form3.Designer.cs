@@ -1,6 +1,6 @@
 ﻿namespace naoFazSentido
 {
-    partial class Form3
+    partial class help
     {
         /// <summary>
         /// Required designer variable.
@@ -94,7 +94,7 @@
             this.progressBar1.Size = new System.Drawing.Size(76, 20);
             this.progressBar1.TabIndex = 6;
             // 
-            // Form3
+            // help
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -106,8 +106,8 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form3";
-            this.Text = "Form3";
+            this.Name = "help";
+            this.Text = "help";
             this.ResumeLayout(false);
             this.PerformLayout();
 
